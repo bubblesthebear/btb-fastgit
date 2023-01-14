@@ -1,0 +1,24 @@
+Most popular: 
+
+    https://pastebin.com/ 
+    https://www.toptal.com/developers/hastebin/ 
+        Not sure if as popular since acquired by TopTal.
+
+Not vetted much by me: 
+
+    https://paste.ee/ 
+        Used for a short time as part of a Pastebin Shortcut I made on iOS. Has a self-destruct feature if you set views to 2. 
+
+    http://pastie.org/
+
+    https://carbon.now.sh/ 
+
+    https://hardbin.com/
+        Supposedly IPFS 
+
+    https://zerobin.net/ 
+        Supposedly open-source and encrypted/decrypted in the browser
+        Self-destruct/ Burn after Reading feature. 
+
+    https://pastes.io/
+        Self-destruct / Burn after Reading feature. 
