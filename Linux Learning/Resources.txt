@@ -1,0 +1,8 @@
+https://www.howtogeek.com/category/linux/
+https://www.linuxfordevices.com/tutorials/linux/linux-commands-cheat-sheet
+
+
+Uncategorized:
+
+    https://www.linuxfordevices.com/?s=linux+command
+    https://www.geeksforgeeks.org/tag/linux-command/
