@@ -5,3 +5,6 @@ Redirect YouTube to an Invidious instance
 
 Redirect YouTube to a Piped instance
   javascript:location.hostname.includes(%22youtube.com%22)?location.assign(%22https://piped.kavin.rocks%22+location.pathname+location.search+location.hash):location.assign(%22https://piped.kavin.rocks%22);
+
+QR generator using Google's Chart API
+  javascript:window.open('http://chart.apis.google.com/chart?cht=qr&chs=600x500&chl=%27+encodeURIComponent(location.href),height=600,width=500)
