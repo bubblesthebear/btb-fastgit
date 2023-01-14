@@ -1,0 +1,73 @@
+Interactive Task Manager (came installed on Pi but might have to install on other distros) 
+    htop
+
+
+Manage running processes 
+
+    Lists all processes running on the system 
+        ps -A 
+        Make it scrollable (q to quit) 
+            ps -A | less 
+        Searchable 
+            ps -A | grep firefox
+
+
+    Lists all processes in a tree format 
+        pstree
+
+    Kill a process
+        kill PID 
+        kill firefox 
+
+    Searches for process name and returns process ID (PID) 
+        pgrep firefox 
+
+    Searches for Firefox's PID then kills the process in one line 
+        kill $(pgrep firefox) 
+
+
+    Kills a process when given a name 
+        pkill firefox 
+        killall firefox 
+
+    Kills a GUI process by turning your cursor into an 'x' and letting you select the window process to kill. Exit by right-clicking. You can bind it to a hotkey for fast GUI process ending. 
+        Xkill 
+
+
+System
+
+    Get info on a specific command
+        info ~command~
+
+    Get manual on a specific command (usually overkill as it's way more detailed)
+        man ~command~
+
+    Start, stop, or restart a system service
+        sudo service ~service~ start
+        sudo service ~service~ stop
+        sudo service ~service~ restart
+
+File Management
+
+    Shows disk usage of specific directories. Was useful for when root on the Raspberry Pi 3B was filled and I had to figure out why. This showed me it was the root trash location. 
+        du -h /home
+            Human-readable output 
+        du -h -d 2 /home/
+            Human-readable output at depth of 2 subdirectories.
+
+    Shows total space and free space left of detected file systems. Looks like what you'd expect from a disk usage tool.
+        df
+        df -h
+
+
+Uncategorized
+
+    grep
+
+    find
+
+    rm
+    cp
+
+
+ 
