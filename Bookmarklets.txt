@@ -1,1 +1,7 @@
-javascript:location.hostname.includes("youtube.com")?location.assign("https://vid.puffyan.us"+location.pathname+location.search+location.hash):location.assign("https://vid.puffyan.us");
+Redirect YouTube to an Invidious instance
+
+  javascript:location.hostname.includes("youtube.com")?location.assign("https://vid.puffyan.us"+location.pathname+location.search+location.hash):location.assign("https://vid.puffyan.us");
+
+
+Redirect YouTube to a Piped instance
+  javascript:location.hostname.includes(%22youtube.com%22)?location.assign(%22https://piped.kavin.rocks%22+location.pathname+location.search+location.hash):location.assign(%22https://piped.kavin.rocks%22);
