@@ -1,0 +1,104 @@
+List contents of a directory
+
+    ls
+    ll (same as "ls -l"
+
+Switch back to previous directory
+
+    cd -
+
+Run multiple commands in a single line (concatenate commands)
+
+    Command1; command2; command3
+
+Run multiple commands in a single line if the previous command in the line is successful
+
+    Command1 && command2 && command3
+
+Search and use past commands
+
+    ctrl+r portion_of_command
+
+Unfreeze terminal if accidentally used ctrl+s
+
+    ctrl+q
+
+Move to beginning and end of line
+
+    ctrl+a and ctrl+e
+
+Read a log file in real-time
+
+    tail -f path_to_log
+
+    You can also use regex to only show the lines you need
+
+        tail -f path_to_log | grep search_term
+
+Use less to read files
+
+    less path_to_file
+
+Reuse the last item from the previous command (also can use alt+.)
+
+    !$
+        ls Tools/
+        cd !$
+
+Reuse the previous command in present command
+
+    !!
+        "apt install blank"
+        "sudo !!"
+
+Using alias to fix typos
+
+    If you have a frequent typo (such as gerp instead of grep) you can use "alias gerp=grep" once to tell bashrc that gerp means grep.
+
+Using yes for commands that need an interactive response
+
+    yes | command
+
+Empty a file without deleting it
+
+    >filename
+
+Find if there are files containing a specific text (it's better to use find though)
+
+    grep -Pri searchterm pathtodirectory
+
+Display output as a table
+
+    cat /etc/passwd | column -t -s :
+
+Monitoring multiple log files at once
+
+    multitail file1 file2
+
+Bash While Loop
+
+    while command
+
+Monitor command outputs
+
+    watch date
+
+Keep running program after killing shell
+
+    nohup wget site.com/file.zip
+
+Record what you've typed in a terminal window for automation
+
+    script newfilename
+
+Replace spaces with tabs in a file using tr
+
+    cat file.txt | tr ':[space]:' 't' > out.txt
+
+Use shred instead of rm to securely delete a file
+
+    shred -zvu filename
+
+Make a cow say things in wordbubbles (preinstalled on Linux)
+
+    echo hello | cowsay
