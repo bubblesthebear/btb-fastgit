@@ -1,7 +1,6 @@
 Interactive Task Manager (came installed on Pi but might have to install on other distros) 
     htop
 
-
 Manage running processes 
 
     Lists all processes running on the system 
