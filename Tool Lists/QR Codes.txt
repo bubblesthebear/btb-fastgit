@@ -1,0 +1,18 @@
+Web Generated:
+
+    For very long formats, I'll combine an expiring pastebin with a QR code.
+
+    Favorites:
+        Kerem QR (using since high school – made Qrafter app)
+            https://keremerkan.net/qr-code-and-2d-code-generator/
+        https://www.nayuki.io/page/qr-code-generator-library
+
+    Fast:
+        https://qrile.com/
+
+    Other:
+        Open Source
+            https://kazuhikoarase.github.io/qrcode-generator/js/demo/
+        https://goqr.me/
+        Bitly's (I don't trust how private it would be though)
+            https://www.qr-code-generator.com/
