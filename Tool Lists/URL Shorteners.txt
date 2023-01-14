@@ -1,0 +1,11 @@
+URL shorteners are unique in that they are seen as a negative in most internet circles are so there aren’t many FOSS versions. As such, FOSS services are labeled. URL shorteners are very useful for sending others to specific website pages when only things like saying it aloud is possible (phone support) or when opening a link on a desktop that was viewed elsewhere.
+
+    (FOSS) MagLit - https://maglit.me/
+
+    is.gd - https://is.gd/index.php
+        I’ve been using them since high school, I trust the service, and I sincerely like their pronounceable feature.
+        Privacy Policy:  https://is.gd/privacy.php
+
+    Chl.li - https://chl.li/
+        Very simple and offers link expiration.
+        Privacy policy says they track nothing. https://chl.li/about
