@@ -1,1 +1,50 @@
 
+Pipes 
+
+    "Pipes allow you to send the output of a command to another command. In the UNIX philosophy, each program is a small utility that do one thing well. For example, the ls command lists the files in the current directory and the grep command searches its input for a specified term. 
+
+    Combine these with pipes (the | character) and you can search for a file in the current directory. The following command searches for the word “word”" 
+
+    ls | grep xword 
+
+Wild Cards 
+
+    "The * character – that is, the asterisk – is a wild card that can match anything. For example, if we wanted to delete both “really long file name” and “really very long file name” from the current directory, we could run the following command. This command deletes all files with file names beginning with “really” and ending with “name.” If you ran rm * instead, you’d delete every file in the current directory, so be careful." 
+
+    rm really*name 
+
+Output Redirection 
+
+    "The > character redirects a command's output to a file instead of another command. For example, the following line runs the ls command to list the files in the current directory and, instead of printing that list to the terminal, it prints the list to a file named 'file1' in the current directory" 
+
+    ls > file1 
+
+Command History 
+
+    "Bash remembers a history of the commands you type into it. You can use the up and down arrow keys to scroll through commands you’ve recently used. The history command prints a list of these commands, so you can pipe it to grep to search for commands you’ve used recently. There are many other tricks you can use with Bash history, too." 
+
+    history 
+
+    history | grep stuff 
+
+~ , . & .. 
+
+    "The ~ character – also known as the tilde – represents the current user’s home directory. So, instead of typing cd /home/name to go to your home directory, you can type cd ~ instead. This also works with relative paths – cd ~/Desktop would switch to the current user’s desktop. 
+
+    Similarly, the . represents the current directory and the .. represents the directory above the current directory. So, cd .. goes up a directory. These also work with relative paths – if you’re in your Desktop folder and want to go to the Documents folder, which is in the same directory as the Desktop folder, you can use the cd ../Documents command." 
+
+Run a Command in the Background 
+
+    "By default, Bash executes every command you run in the current terminal. That’s normally fine, but what if you want to launch an application and continue using the terminal? If you type firefox to launch Firefox, Firefox will take over your terminal and display error messages and other output until you close it. Add the & operator to the end of the command to have Bash execute the program in the background" 
+
+    firefox & 
+
+Conditional Execution 
+
+    "You can also have Bash run two commands, one after another. The second command will only execute if the first command completed successfully. To do this, put both commands on the same line, separated by a &&, or double ampersand. 
+
+    For example, the sleep command takes a value in seconds, counts down, and completes successfully. It’s useless alone, but you can use it to run another command after a delay. The following command will wait five seconds, then launch the gnome-screenshot tool" 
+
+    sleep 5 && gnome-screenshot 
+
+Original source:  https://www.howtogeek.com/110150/become-a-linux-terminal-power-user-with-these-8-tricks/ 
