@@ -9,6 +9,8 @@ Local WebRTC:
         https://www.sharedrop.io/
     (FOSS?) XKCD949
         http://xkcd949.com/
+		SnapDrop
+				https://snapdrop.net/
 
 WebRTC-esque but using WebTorrent: 
 
