@@ -1,5 +1,5 @@
 # Temporary Email Services
-The majority of this list consists of no nonsense services.
+The majority of this list consists of no-nonsense services.
 
 **Barebones**
 
